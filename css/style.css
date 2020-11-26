@@ -7,6 +7,8 @@ body {
 
 .list {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 a{
@@ -35,6 +37,16 @@ a{
 
 /* ======================style for index.html ==================*/
 /* ====================== header ==================*/
+
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 2px solid tomato;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* logo */
 
 .logo{
@@ -90,7 +102,13 @@ a{
 
 /* hero */
 
+.hero{
+    align-items: center;
+}
+
 .hero-title {
+    margin-top: 0;
+    margin-bottom: 30px;
     color: var(--white-color);
     text-transform: uppercase;
     letter-spacing: 0.06em;
@@ -101,6 +119,8 @@ a{
 }
 
 .button {
+    padding: 10px 32px;
+    border-radius: 4px;
     color: var(--white-color);
     background-color: var(--accent-color);
     font-weight: bold;
