@@ -92,7 +92,15 @@ a{
 /* ====================== main for index.html ==================*/
 
 /* section */
+
+.section{
+    padding-bottom: 94px;
+ 
+}
+
 .section-title {
+    margin-top: 0;
+    margin-bottom: 50px;
     color: var(--primary-text-color);
     font-weight: bold;
     font-size: 36px;
@@ -100,10 +108,11 @@ a{
     letter-spacing: 0.03em;
 }
 
+
 /* hero */
 
 .hero{
-    align-items: center;
+    text-align: center;
 }
 
 .hero-title {
@@ -119,6 +128,7 @@ a{
 }
 
 .button {
+    min-width: 200px;
     padding: 10px 32px;
     border-radius: 4px;
     color: var(--white-color);
@@ -133,6 +143,8 @@ a{
 /* advatages */
 
 .advantages .title{
+    margin-top: 0;
+    margin-bottom: 10px;
     color: var(--primary-text-color);
     font-weight: bold;
     font-size: 14px;
@@ -141,6 +153,7 @@ a{
     text-transform: uppercase;
 }
 .advantages .description{
+    margin-top: 0;
     font-weight: normal;
     font-size: 14px;
     line-height: 1.714;
@@ -164,7 +177,16 @@ a{
 
 /* our team */
 
+
+.team-img{
+    margin-top: 0;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
 .team-name {
+    margin-top: 0;
+    margin-bottom: 10px;
     color: #212121;
     font-weight: 500;
     font-size: 16px;
@@ -172,7 +194,9 @@ a{
     letter-spacing: 0.03em;
 }
 
-.team-position{      
+.team-position{  
+    margin-top: 0;
+    margin-bottom: 30px;
     font-weight: normal;
     font-size: 16px;
     line-height: 1.188;
