@@ -274,7 +274,6 @@ p{
 }
 
 .team-img{
-    margin-top: 0;
     margin-bottom: 30px;
 }
 
@@ -355,6 +354,10 @@ p{
 
 /* projects */
 
+.portfolio-menu{
+    text-align: center;
+}
+
 .project-title{
     color: var(--primary-text-color);
     font-weight: bold;
@@ -389,4 +392,35 @@ p{
     color: var(--white-color);
     background-color: var(--accent-color);
     cursor: pointer;
+}
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+}
+ 
+.projects .item{
+    margin-right: 29px;
+    margin-bottom: 30px;
+}
+
+.projects .item:nth-child(3n){
+    margin-right: 1px;
+}
+
+.projects .item:nth-last-child(-n + 3){
+    margin-bottom: 0;
+}
+.project-img{
+    margin-bottom: 20px;
+}
+
+.project-container{
+    padding: 20px 24px;
+}
+
+.section-project{
+    margin-top: 55px;
+    margin-bottom: 80px;
+
 }
