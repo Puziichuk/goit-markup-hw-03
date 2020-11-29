@@ -71,8 +71,8 @@ p{
     padding-left: 15px;
     padding-right: 15px;
     outline: 2px solid tomato;
-   margin-left: auto;
-   margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 .navigation{
     display: flex;
@@ -375,6 +375,7 @@ p{
 
 
 .portfolio-btn{
+    padding: 6px 22px;
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 16px;
@@ -384,6 +385,10 @@ p{
     background: #F5F4FA;
     border-radius: 4px;
     border: none;
+}
+
+.portfolio-btn:not(:last-child){
+    margin-right: 8px;
 }
 
 
