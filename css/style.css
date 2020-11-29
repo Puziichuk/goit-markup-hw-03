@@ -354,7 +354,6 @@ p{
 /* projects */
 
 .portfolio-menu{
-    background-color: cyan;
     padding-top: 94px;
     text-align: center;
 }
@@ -426,7 +425,7 @@ p{
 }
 
 .section-project{
-    margin-top: 50px;
-    margin-bottom: 94px;
+    padding-top: 50px;
+    padding-bottom: 94px;
 
 }
