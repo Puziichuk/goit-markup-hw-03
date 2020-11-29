@@ -70,7 +70,6 @@ p{
     align-items: center;
     padding-left: 15px;
     padding-right: 15px;
-    outline: 2px solid tomato;
     margin-left: auto;
     margin-right: auto;
 }
@@ -355,6 +354,8 @@ p{
 /* projects */
 
 .portfolio-menu{
+    background-color: cyan;
+    padding-top: 94px;
     text-align: center;
 }
 
@@ -425,7 +426,7 @@ p{
 }
 
 .section-project{
-    margin-top: 55px;
-    margin-bottom: 80px;
+    margin-top: 50px;
+    margin-bottom: 94px;
 
 }
