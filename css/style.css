@@ -61,8 +61,6 @@ p{
 /* ======================style for index.html ==================*/
 /* ====================== header ==================*/
 .header{
-    padding-top: 30px;
-    padding-bottom: 30px;
     border-bottom: 1px solid #ECECEC;
 }
 .container{
@@ -91,6 +89,8 @@ p{
 /* logo */
 
 .logo{
+    padding-top: 25px;
+    padding-bottom: 25px;
     margin-right: 93px;
     color: #000000;
     font-family: 'Raleway', sans-serif;
