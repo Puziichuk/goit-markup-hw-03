@@ -179,10 +179,12 @@ p{
 
 .hero{
     text-align: center;
+    background-color: #2F303A; 
+    padding: 200px 452px;
+    
 }
 
 .hero-title {
-    margin-top: 0;
     margin-bottom: 30px;
     color: var(--white-color);
     text-transform: uppercase;
@@ -190,7 +192,8 @@ p{
     font-weight: 900;
     font-size: 44px;
     line-height: 1.364;
-    background-color: grey;
+    width: 696px;
+    
 }
 
 .button {
@@ -300,13 +303,15 @@ p{
 .team-container{
     padding: 30px 60px;
 }
-
+.section.team{
+    background-color: #F5F4FA;
+}
 
 /* ================== footer for index.html ================ */
 
 .address {
     display: inline-block;
-    margin-bottom: 20px;
+    margin-bottom: 9px;
     color: var(--white-color);
     font-style: normal;
     font-weight: normal;
@@ -326,7 +331,7 @@ p{
 
 .logo-footer{
     display: inline-block;
-    margin-bottom: 33px;
+    margin-bottom: 20px;
     color: #FFFFFF;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
@@ -337,13 +342,13 @@ p{
 
 .footer{
     background-color: #2F303A;
-    padding-top: 65px;
-    padding-bottom: 65px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .link.email{
     display: inline-block;
-    margin-bottom: 16px;
+    margin-bottom: 9px;
 }
 
 
